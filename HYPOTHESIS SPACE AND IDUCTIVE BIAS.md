@@ -22,4 +22,4 @@ Training Data S: Collection of examples observed by learning algorithm.
 Hypothesis space is a key concept in inductive learning, which refers to the set of all possible hypotheses or models that can be used to explain a given dataset.  
 In other words, the hypothesis space defines the range of functions or relationships that can be learned by a machine learning algorithm. 
  
-![hypothesis](![image](https://user-images.githubusercontent.com/128781536/233781514-d78dd0ca-92a2-46ff-a252-5ac03124b07f.png))
+![hypothesis](![[image](https://user-images.githubusercontent.com/128781536/233781514-d78dd0ca-92a2-46ff-a252-5ac03124b07f.png)](https://media.geeksforgeeks.org/wp-content/uploads/20191014210129/pic82-e1571070331775.png))
