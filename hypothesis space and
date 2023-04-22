@@ -1,0 +1,22 @@
+## Inductive learning  
+Inductive learning is a type of machine learning that involves the process of learning patterns or regularities in data and making predictions based on those patterns.
+In inductive learning, the machine learning algorithm works by analyzing a set of training data, which contains examples of input-output pairs, and then inferring a 
+general rule or pattern that can be used to make predictions on new, unseen data.
+**examples**
+1)Spam filtering
+2)Handwriting recognition
+3)Predictive modeling
+
+## TERMINOLOGY
+Features: The number of features or distinct traits that can be used to describe each item in a quantitative manner.
+Feature vector: n-dimensional vector of numerical features that represent some object
+Instance Space X: Set of all possible objects describable by features.
+Example (x,y): Instance x with label y=f(x).
+Concept c: Subset of objects from X (c is unknown).
+Target Function f: Maps each instance x EX to target label y EY
+Example (x,y): Instance x with label y=f(x).
+Training Data S: Collection of examples observed by learning algorithm.
+
+## hypothesis space
+Hypothesis space is a key concept in inductive learning, which refers to the set of all possible hypotheses or models that can be used to explain a given dataset.
+In other words, the hypothesis space defines the range of functions or relationships that can be learned by a machine learning algorithm.
