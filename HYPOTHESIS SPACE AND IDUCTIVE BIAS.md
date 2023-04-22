@@ -10,7 +10,7 @@ general rule or pattern that can be used to make predictions on new, unseen data
 ## TERMINOLOGY
 Features: The number of features or distinct traits that can be used to describe each item in a quantitative manner.  
 Feature vector: n-dimensional vector of numerical features that represent some object  
-Instance Space X: Set of all possible objects describable by features.  
+Instance Space X: Set of all possible objects describable by features.each instance is the point in the features space    
 Example (x,y): Instance x with label y=f(x).  
 Concept c: Subset of objects from X (c is unknown).  
 Target Function f: Maps each instance x EX to target label y EY  
@@ -22,3 +22,4 @@ Training Data S: Collection of examples observed by learning algorithm.
 Hypothesis space is a key concept in inductive learning, which refers to the set of all possible hypotheses or models that can be used to explain a given dataset.  
 In other words, the hypothesis space defines the range of functions or relationships that can be learned by a machine learning algorithm. 
  
+![hypothesis](![image](https://user-images.githubusercontent.com/128781536/233781514-d78dd0ca-92a2-46ff-a252-5ac03124b07f.png))
