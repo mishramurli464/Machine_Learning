@@ -51,4 +51,8 @@ The Pearson correlation coefficient, denoted by the symbol r, ranges from -1 to 
 
 In the context of feature selection, Pearson correlation coefficient is used to measure the correlation between each feature and the target variable. Features with a high correlation with the target variable are more likely to be informative and should be retained, while features with a low correlation can be discarded.
 
-Example: In a dataset of student grades, we may use Pearson correlation coefficient to identify the most informative features for predicting the final grade. We would calculate the correlation between each feature, such as the student's attendance, homework scores, and exam scores, and the final grade. If we find that the attendance and homework scores have a high positive correlation with the final grade, while the exam scores have a low correlation, we can select the attendance and homework scores as the most informative features and discard the exam scores.
+Example: In a dataset of student grades, we may use Pearson correlation coefficient to identify the most informative features for predicting the final grade. We would calculate the correlation between each feature, such as the student's attendance, homework scores, and exam scores, and the final grade. If we find that the attendance and homework scores have a high positive correlation with the final grade, while the exam scores have a low correlation, we can select the attendance and homework scores as the most informative features and discard the exam scores.  
+
+In machine learning, feature extraction is the process of selecting and transforming raw input data into a set of features that can be used as input for learning algorithms. Feature extraction is a crucial step in machine learning because it can greatly impact the performance and accuracy of the resulting model.   
+
+![feat_selection_& _extraction] (http://byclb.com/TR/Tutorials/neural_networks/ch5_1_dosyalar/image005.jpg)
