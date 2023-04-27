@@ -51,3 +51,13 @@ Small values of k are more appropriate for datasets with simple or nonlinear dec
 With larger values of k, the decision boundary between the classes becomes smoother and more linear, which can make the model more robust to noise and outliers in the training data.  
 However, with larger values of k, the model may become too simple and underfit the training data, resulting in lower accuracy on both training and test data.  
 Large values of k are more appropriate for datasets with large amounts of noise or outliers, as well as for datasets with simple or linear decision boundaries.  
+
+##  Some of the common applications of k-NN in learning models include:
+
+**Classification:** k-NN is widely used for classification tasks, such as image recognition, speech recognition, and sentiment analysis. In such tasks, k-NN is used to classify new data points into different classes based on the class labels of the k-Nearest Neighbors.  
+
+**Regression:** k-NN can also be used for regression tasks, such as predicting house prices or stock prices. In such tasks, k-NN is used to predict the value of a new data point based on the values of the k-Nearest Neighbors.  
+
+**Anomaly detection:** k-NN can be used to detect anomalies in data, such as fraud detection or fault diagnosis in industrial systems. In such tasks, k-NN is used to identify data points that are significantly different from the rest of the data points.  
+
+**Recommender systems:** k-NN can be used in recommender systems to recommend products or services to users based on the similarity between their preferences and those of other users.  
