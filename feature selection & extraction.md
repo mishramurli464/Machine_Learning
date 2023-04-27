@@ -55,4 +55,4 @@ Example: In a dataset of student grades, we may use Pearson correlation coeffici
 
 In machine learning, feature extraction is the process of selecting and transforming raw input data into a set of features that can be used as input for learning algorithms. Feature extraction is a crucial step in machine learning because it can greatly impact the performance and accuracy of the resulting model.   
 
-![feat_selection_& _extraction] (http://byclb.com/TR/Tutorials/neural_networks/ch5_1_dosyalar/image005.jpg)
+![feat_selection](http://byclb.com/TR/Tutorials/neural_networks/ch5_1_dosyalar/image005.jpg)
