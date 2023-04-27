@@ -51,8 +51,17 @@ The Pearson correlation coefficient, denoted by the symbol r, ranges from -1 to 
 
 In the context of feature selection, Pearson correlation coefficient is used to measure the correlation between each feature and the target variable. Features with a high correlation with the target variable are more likely to be informative and should be retained, while features with a low correlation can be discarded.
 
-Example: In a dataset of student grades, we may use Pearson correlation coefficient to identify the most informative features for predicting the final grade. We would calculate the correlation between each feature, such as the student's attendance, homework scores, and exam scores, and the final grade. If we find that the attendance and homework scores have a high positive correlation with the final grade, while the exam scores have a low correlation, we can select the attendance and homework scores as the most informative features and discard the exam scores.  
+Example: In a dataset of student grades, we may use Pearson correlation coefficient to identify the most informative features for predicting the final grade. We would calculate the correlation between each feature, such as the student's attendance, homework scores, and exam scores, and the final grade. If we find that the attendance and homework scores have a high positive correlation with the final grade, while the exam scores have a low correlation, we can select the attendance and homework scores as the most informative features and discard the exam scores.   
 
-In machine learning, feature extraction is the process of selecting and transforming raw input data into a set of features that can be used as input for learning algorithms. Feature extraction is a crucial step in machine learning because it can greatly impact the performance and accuracy of the resulting model.   
+## FEATURE EXTRACTION
+In machine learning, feature extraction is the process of selecting and transforming raw input data into a set of features that can be used as input for learning algorithms. Feature extraction is a crucial step in machine learning because it can greatly impact the performance and accuracy of the resulting model.  
+ feature extraction can be represented as a function that maps an input space X to a new feature space F, where F has a lower dimensionality than X.
+
+Formally, let **X = {x_1, x_2, ..., x_n}** be a set of n input examples, where each example x_i is represented by a p-dimensional feature vector **x_i = [x_i1, x_i2, ..., x_ip]**. The goal of feature extraction is to map each input example x_i to a new feature vector **f_i = [f_i1, f_i2, ..., f_im]**, where m < p, and each f_ij is a scalar value.
+The feature extraction function can be represented as:
+**f_i = g(x_i)**
+where g is a function that maps an input vector x_i to a new feature vector f_i. The function g can be a linear transformation, a non-linear transformation, or a combination of both.
+
+
 
 ![feat_selection](http://byclb.com/TR/Tutorials/neural_networks/ch5_1_dosyalar/image005.jpg)
