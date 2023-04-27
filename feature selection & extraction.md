@@ -22,7 +22,8 @@ in a machine learning model. The goal of feature selection is to reduce the dime
 
 Suppose we have a dataset consisting of a set of features X = {x1, x2, ..., xn} and a target variable y. The goal of a machine learning model is to learn a function f(X) that maps the input features X to the target variable y, i.e., f(X) = y.  
 
-**Filter and wrapper methods are two common approaches to feature selection in machine learning.**
+**Filter and wrapper methods are two common approaches to feature selection in machine learning.**  
+![filter_methods](https://www.researchgate.net/publication/308600723/figure/fig1/AS:448738465456128@1483998995827/Summary-of-the-two-variants-of-a-feature-selection-method-filters-left-and-wrappers.png)
 
 **i)Filter methods:**
 Filter methods are feature selection techniques that select features based on their statistical properties, such as correlation, mutual information, or statistical significance. These methods evaluate the relevance of each feature independently of the learning algorithm and select a subset of features that have the highest correlation with the target variable. Filter methods are computationally efficient and can handle high-dimensional datasets, but they may miss important feature interactions that can improve the model's performance.
