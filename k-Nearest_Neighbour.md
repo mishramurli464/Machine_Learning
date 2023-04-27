@@ -35,4 +35,19 @@ To find the k-Nearest Neighbor (k-NN) in learning models, we typically follow th
 
 **6)Evaluate the model:** After the k-NN algorithm has been applied to the training data, the performance of the model can be evaluated using a variety of metrics, such as accuracy, precision, recall, and F1 score for classification tasks, or mean squared error and R-squared for regression tasks.
 
-Overall, finding the k-Nearest Neighbors involves calculating the distances between the new data point and all the training data points, selecting the k data points with the smallest distances, and using them to make a prediction. The performance of the model can then be evaluated using appropriate metrics.
+Overall, finding the k-Nearest Neighbors involves calculating the distances between the new data point and all the training data points, selecting the k data points with the smallest distances, and using them to make a prediction. The performance of the model can then be evaluated using appropriate metrics. 
+
+## THE CHOICE OF K
+The choice of k, the number of neighbors to consider in the k-Nearest Neighbor (k-NN) algorithm, is an important hyperparameter that can have a significant impact on the performance of the learning model. Both small and large values of k have their advantages and disadvantages, depending on the specific problem and dataset.  
+
+**Small k:**  
+
+With smaller values of k, the decision boundary between the classes becomes more complex and flexible, which can result in higher accuracy on training data and potentially better prediction accuracy on test data.  
+However, with smaller values of k, the model may be more sensitive to noise and outliers in the training data, resulting in overfitting. In other words, the model may learn the noise and idiosyncrasies of the training data too closely, making it less effective in generalizing to new data.  
+Small values of k are more appropriate for datasets with simple or nonlinear decision boundaries, as well as for datasets with low noise and outliers.  
+
+**Large k:**  
+
+With larger values of k, the decision boundary between the classes becomes smoother and more linear, which can make the model more robust to noise and outliers in the training data.  
+However, with larger values of k, the model may become too simple and underfit the training data, resulting in lower accuracy on both training and test data.  
+Large values of k are more appropriate for datasets with large amounts of noise or outliers, as well as for datasets with simple or linear decision boundaries.  
