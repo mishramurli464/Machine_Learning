@@ -55,13 +55,32 @@ Example: In a dataset of student grades, we may use Pearson correlation coeffici
 
 ## FEATURE EXTRACTION
 In machine learning, feature extraction is the process of selecting and transforming raw input data into a set of features that can be used as input for learning algorithms. Feature extraction is a crucial step in machine learning because it can greatly impact the performance and accuracy of the resulting model.  
- feature extraction can be represented as a function that maps an input space X to a new feature space F, where F has a lower dimensionality than X.
 
-Formally, let **X = {x_1, x_2, ..., x_n}** be a set of n input examples, where each example x_i is represented by a p-dimensional feature vector **x_i = [x_i1, x_i2, ..., x_ip]**. The goal of feature extraction is to map each input example x_i to a new feature vector **f_i = [f_i1, f_i2, ..., f_im]**, where m < p, and each f_ij is a scalar value.
-The feature extraction function can be represented as:
-**f_i = g(x_i)**
-where g is a function that maps an input vector x_i to a new feature vector f_i. The function g can be a linear transformation, a non-linear transformation, or a combination of both.
+![feat_selection](http://byclb.com/TR/Tutorials/neural_networks/ch5_1_dosyalar/image005.jpg)  
+
+**Principal Component Analysis (PCA)**  
+Principal Component Analysis (PCA) is a widely used technique in machine learning for feature extraction. It is a statistical technique that is used to reduce the dimensionality of a dataset while retaining most of the information present in the original data. PCA works by finding a set of new variables, called principal components, that are linear combinations of the original features.
+
+The first principal component is the linear combination of the original features that accounts for the most variance in the data. The second principal component is the linear combination of the original features that accounts for the most variance after accounting for the first principal component, and so on.
+
+PCA is a mathematical technique for feature extraction that finds a set of linearly uncorrelated and orthogonal principal components that account for most of the variance in the data. PCA can be used to reduce the dimensionality of a dataset and improve the performance of learning algorithms.  
+
+![pca](https://vitalflux.com/wp-content/uploads/2020/08/Screenshot-2020-08-08-at-7.07.26-PM-768x255.png)  
+The above fig shows. that the first pc is chosen based on the largest variance and the second pc if it is uncorrelated with the first feature  so its orthigonal to the first   
+
+PCA can also be used for image reduction, which is a common application of dimensionality reduction in image processing. In this context, the goal is to reduce the dimensionality of an image while preserving its essential features.
+
+Let's say you have a grayscale image with 1000 pixels, each pixel represented by a value ranging from 0 to 255. This image can be represented as a 1000-dimensional vector, which is high-dimensional and difficult to analyze.
+
+To reduce the dimensionality of the image using PCA, we compute the principal components of the image matrix. The first principal component represents the direction in which the pixel values vary the most across all images. The second principal component represents the direction orthogonal to the first principal component that captures the most variation, and so on.
+
+By retaining only the top k principal components, we can reduce the dimensionality of the image matrix from 1000 to k while retaining most of the variability in the image. This is equivalent to compressing the image while preserving its essential features.
+
+To reconstruct the compressed image, we multiply the compressed image matrix by the transpose of the principal component matrix and add back the mean value of each pixel. This produces an approximation of the original image with reduced dimensionality.
+
+The quality of the compressed image depends on the number of principal components retained. Retaining more principal components results in a higher quality approximation of the original image, while retaining fewer principal components results in a lower quality approximation.  
 
 
 
-![feat_selection](http://byclb.com/TR/Tutorials/neural_networks/ch5_1_dosyalar/image005.jpg)
+
+
