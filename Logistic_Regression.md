@@ -7,15 +7,15 @@ The logistic regression model is trained using a set of labeled data, where the 
 
 Let Y be the binary outcome (0 or 1) that we want to predict, and let X be a vector of input features. We assume that the probability of Y given X follows a logistic (or sigmoid) function:
 
-p(Y=1 | X) = f(X)
+**p(Y=1 | X) = f(X)**
 
 where f is the logistic function, defined as:
 
-f(X) = 1 / (1 + exp(-z))
+**f(X) = 1 / (1 + exp(-z))**
 
 where z is a linear function of the input features:
 
-z = b0 + b1X1 + b2X2 + ... + bn*Xn
+**z = b0 + b1X1 + b2X2 + ... + bn*Xn**
 
 Here, b0 is the intercept (or bias) term, and b1 to bn are the coefficients (or weights) associated with each input feature X1 to Xn.
 
