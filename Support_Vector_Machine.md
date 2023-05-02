@@ -13,11 +13,11 @@ In SVM, there are two types of margins: the functional margin and the geometric 
 The functional margin of a data point (x_i, y_i) is the product of the distance of the data point from the decision boundary (i.e., hyperplane) and its true label y_i. 
 Mathematically, the functional margin is given by:  
 
-**margin_i = y_i * (w*x_i + b)**
+**margin_i = y_i * (w*x_i + b)**  
 Here, w and b are the parameters of the hyperplane that we are trying to learn.
 To find the optimal hyperplane, we want to maximize the minimum functional margin of all the data points. Mathematically, this can be represented as:  
 
-**maximize min_i(y_i * (w*x_i + b))**  
+**maximize min_i(y_i * (w*x_i + b))**   
 
 **subject to ||w|| = 1**  
 where ||w|| is the Euclidean norm of the weight vector w.
