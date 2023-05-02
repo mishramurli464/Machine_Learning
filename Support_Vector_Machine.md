@@ -10,7 +10,8 @@ In SVM, there are two types of margins: the functional margin and the geometric 
 
 ## Functional margin:
 
-![func_margin]("C:\Users\kaush\OneDrive\Pictures\pictures\functional_margin.png")
+![functional_margin](https://user-images.githubusercontent.com/128781536/235594121-1b47f7b0-e9b9-4131-b8e3-191a51643a44.png)
+
 
 The functional margin of a data point (x_i, y_i) is the product of the distance of the data point from the decision boundary (i.e., hyperplane) and its true label y_i. 
 Mathematically, the functional margin is given by:  
