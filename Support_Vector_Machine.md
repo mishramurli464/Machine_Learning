@@ -46,3 +46,10 @@ represented as:
 
 **subject to ||w|| = 1**
 where ||w|| is the Euclidean norm of the weight vector w.
+
+## LINEAR AND NON-LINEAR SVM
+
+Linear SVM is used when the data is linearly separable, which means that there exists a straight line or a hyperplane that can completely separate the data points into their respective classes. In linear SVM, the decision boundary is a straight line or a hyperplane, and the classification is based on which side of the decision boundary the data point falls on.
+
+Non-linear SVM is used when the data is not linearly separable, which means that there is no straight line or hyperplane that can completely separate the data points into their respective classes. In non-linear SVM, the decision boundary is a non-linear function of the input features, and the classification is based on which side of the decision boundary the data point falls on.
+
