@@ -51,5 +51,23 @@ where ||w|| is the Euclidean norm of the weight vector w.
 
 Linear SVM is used when the data is linearly separable, which means that there exists a straight line or a hyperplane that can completely separate the data points into their respective classes. In linear SVM, the decision boundary is a straight line or a hyperplane, and the classification is based on which side of the decision boundary the data point falls on.
 
-Non-linear SVM is used when the data is not linearly separable, which means that there is no straight line or hyperplane that can completely separate the data points into their respective classes. In non-linear SVM, the decision boundary is a non-linear function of the input features, and the classification is based on which side of the decision boundary the data point falls on.
+Non-linear SVM is used when the data is not linearly separable, which means that there is no straight line or hyperplane that can completely separate the data points into their respective classes. In non-linear SVM, the decision boundary is a non-linear function of the input features, and the classification is based on which side of the decision boundary the data point falls on.  
+
+## The primal and dual problem in SVM  
+
+SVMs work by finding the hyperplane that maximizes the margin between the support vectors of different classes. The optimization problem that SVMs solve can be formulated as both a primal problem and a dual problem.
+
+The primal problem in SVM is to minimize the following optimization problem:
+
+**minimize ½||w||² + CΣξ**
+
+**subject to yi(w · xi + b) ≥ 1 - ξi, and ξi ≥ 0**
+
+where w is the weight vector, b is the bias term, ξ is the slack variable, C is the regularization parameter, and (xi, yi) are the training examples.
+
+This problem seeks to find the weight vector w, bias term b, and slack variable ξ that minimize the margin between the support vectors of different classes while minimizing the classification error on the training set. The regularization parameter C controls the trade-off between maximizing the margin and minimizing the classification error. The solution to the primal problem gives us the optimal hyperplane that separates the data points into their respective classes.
+
+The dual problem in SVM involves finding the Lagrange multipliers that define the support vectors and the hyperplane. The Lagrange multipliers are used to transform the primal problem into a dual problem, which is formulated as a maximization problem subject to the constraints that the Lagrange multipliers are non-negative and sum to zero. The Lagrange multipliers are used to compute the weight vector and bias term that define the optimal hyperplane.
+
+The optimal solution for the primal problem can be obtained from the dual problem by using the Lagrange multipliers. The dual problem is computationally more efficient than the primal problem when the number of training examples is larger than the number of features. The dual problem also allows for non-linear SVMs through the use of kernel functions, which map the input features into a higher-dimensional space where the data is more likely to be linearly separable.
 
