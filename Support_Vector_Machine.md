@@ -68,6 +68,18 @@ where w is the weight vector, b is the bias term, ξ is the slack variable, C is
 This problem seeks to find the weight vector w, bias term b, and slack variable ξ that minimize the margin between the support vectors of different classes while minimizing the classification error on the training set. The regularization parameter C controls the trade-off between maximizing the margin and minimizing the classification error. The solution to the primal problem gives us the optimal hyperplane that separates the data points into their respective classes.
 
 The dual problem in SVM involves finding the Lagrange multipliers that define the support vectors and the hyperplane. The Lagrange multipliers are used to transform the primal problem into a dual problem, which is formulated as a maximization problem subject to the constraints that the Lagrange multipliers are non-negative and sum to zero. The Lagrange multipliers are used to compute the weight vector and bias term that define the optimal hyperplane.
+The Lagrange multipliers are denoted by αi for each training example (xi, yi) and are used to maximize the Lagrangian function with respect to the weight vector w and bias term b. The Lagrangian function for the primal problem is:
+
+**L(w, b, ξ, α, μ) = ½||w||² + CΣξ - Σαi(yi(w · xi + b) - 1 + ξi) - Σμiξi**
+
+where ||w||² is the squared Euclidean norm of the weight vector w, C is the regularization parameter, ξi is the slack variable, and μi is the Lagrange multiplier associated with the ith slack variable.
+
+The Lagrangian function is subject to the following constraints:
+
+αi ≥ 0
+Σαiyi = 0
+
+These constraints ensure that the Lagrange multipliers are non-negative and sum to zero, respectively.
 
 The optimal solution for the primal problem can be obtained from the dual problem by using the Lagrange multipliers. The dual problem is computationally more efficient than the primal problem when the number of training examples is larger than the number of features. The dual problem also allows for non-linear SVMs through the use of kernel functions, which map the input features into a higher-dimensional space where the data is more likely to be linearly separable.
 
