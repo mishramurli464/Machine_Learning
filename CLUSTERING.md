@@ -6,12 +6,12 @@ points together. There are several methods used to compute the distance or simil
 distance. 
 ![Clustering-example-with-intra-and-inter-clustering-illustrations](https://user-images.githubusercontent.com/128781536/236620751-6796a647-aa42-4854-9504-738f7d82e8c0.png)
 
-## Aspects of clustering
+## Aspects of clustering  
 
-**A clustering algorithm such as **
---Partitional clustering eg, kmeans 
---Hierarchical clustering eg, AHC
---Mixture of Gaussians
+**A clustering algorithm such as**  
+--Partitional clustering eg, kmeans   
+--Hierarchical clustering eg, AHC  
+--Mixture of Gaussians  
 
 **A distance or similarity function*
 - such as Euclidean, Minkowski, cosine
