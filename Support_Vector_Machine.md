@@ -76,8 +76,8 @@ where ||w||² is the squared Euclidean norm of the weight vector w, C is the reg
 
 The Lagrangian function is subject to the following constraints:
 
-αi ≥ 0
-Σαiyi = 0
+ **αi ≥ 0**  
+ **Σαiyi = 0**
 
 These constraints ensure that the Lagrange multipliers are non-negative and sum to zero, respectively.
 
@@ -85,8 +85,9 @@ The optimal solution for the primal problem can be obtained from the dual proble
 
 ##   NON-Linear SVM and Kernel Function  
  Non-linear SVM uses a **kernel function** to transform the data into a higher-dimensional space where a linear decision boundary can be found. The kernel function maps the data points into the new feature space without actually computing their coordinates. The most commonly used kernel functions are polynomial kernel, RBF kernel, and sigmoid kernel. The optimization problem for non-linear SVM is the same as that of linear SVM, but with the kernel function replacing the dot product in the decision function.
+ ![m](https://user-images.githubusercontent.com/128781536/236613985-364b79f7-4632-4b3e-8992-3c4aef269cfc.JPG)   
  
- **Commonly-used kernel functions**
+ **Commonly-used kernel functions**  
  **Linear kernel:** K(xi, xj) = Xi.Xj
 
  **Polynomial of power p**: K(xi, xj) = (1 + xi.xj)^P
