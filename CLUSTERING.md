@@ -6,23 +6,21 @@ points together. There are several methods used to compute the distance or simil
 distance. 
 ![Clustering-example-with-intra-and-inter-clustering-illustrations](https://user-images.githubusercontent.com/128781536/236620751-6796a647-aa42-4854-9504-738f7d82e8c0.png)
 
-Aspects of clustering
+## Aspects of clustering
 
-A clustering algorithm such as Partitional clustering eg, kmeans Hierarchical clustering eg, AHC
+**A clustering algorithm such as **
+--Partitional clustering eg, kmeans 
+--Hierarchical clustering eg, AHC
+--Mixture of Gaussians
 
-Mixture of Gaussians
-
-A distance or similarity function
-
+**A distance or similarity function*
 - such as Euclidean, Minkowski, cosine
 
-Clustering quality
+**Clustering quality**
 
-Inter-clusters distance⇒ maximized
+**Inter-clusters distance**⇒ maximized
 
-The quality of a clustering result depends on the algorithm, the distance function, and the application.
-
-Intra-clusters distance minimized   
+**Intra-clusters distance**=> minimized   
 
 ## APPLICATION
 Clustering is a widely used technique in machine learning and data science, and it has many practical applications in various fields. Some of the most common applications of clustering include:
