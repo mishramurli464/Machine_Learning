@@ -81,5 +81,27 @@ The Lagrangian function is subject to the following constraints:
 
 These constraints ensure that the Lagrange multipliers are non-negative and sum to zero, respectively.
 
-The optimal solution for the primal problem can be obtained from the dual problem by using the Lagrange multipliers. The dual problem is computationally more efficient than the primal problem when the number of training examples is larger than the number of features. The dual problem also allows for non-linear SVMs through the use of kernel functions, which map the input features into a higher-dimensional space where the data is more likely to be linearly separable.
+The optimal solution for the primal problem can be obtained from the dual problem by using the Lagrange multipliers. The dual problem is computationally more efficient than the primal problem when the number of training examples is larger than the number of features. The dual problem also allows for non-linear SVMs through the use of kernel functions, which map the input features into a higher-dimensional space where the data is more likely to be linearly separable.  
+
+##   NON-Linear SVM and Kernel Function  
+ Non-linear SVM uses a **kernel function** to transform the data into a higher-dimensional space where a linear decision boundary can be found. The kernel function maps the data points into the new feature space without actually computing their coordinates. The most commonly used kernel functions are polynomial kernel, RBF kernel, and sigmoid kernel. The optimization problem for non-linear SVM is the same as that of linear SVM, but with the kernel function replacing the dot product in the decision function.
+ 
+ Commonly-used kernel functions
+
+Linear kernel: K(xi, xj) = Xi.Xj
+
+Polynomial of power p:
+
+K(xi, xj) = (1 + xi.xj)^P
+
+• Gaussian (radial-basis function):
+
+K(xi, xj) = e 202
+
+Sigmoid
+
+K(xi,Xj) = tanh(Box.xj + Bi)
+
+In general, functions that satisfy Mercer's condition can be kernel functions.
+
 
