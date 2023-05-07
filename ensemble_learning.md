@@ -38,7 +38,7 @@ For example, suppose you have trained 10 decision trees using the Bagging algori
 
 4)Evaluate the performance of the ensemble model: Once you have combined the predictions of the models, you can evaluate the performance of the ensemble model on a validation set or test set. You can use metrics such as accuracy, precision, recall, and F1-score to evaluate the performance of the model.  
 
-### Bagging
+### Boosting
 Boosting is another popular ensemble learning algorithm that involves training multiple models sequentially on different subsets of the training dataset. Unlike Bagging, Boosting focuses on reducing the bias of a single model and improving its accuracy by giving more weight to misclassified samples in each subsequent iteration.
 
 Here's an example of how the Boosting algorithm works:
