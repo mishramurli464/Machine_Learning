@@ -22,6 +22,8 @@ Ensemble learning can help improve the accuracy and robustness of predictive mod
 
 ## There are two main types of ensemble learning: bagging and boosting.  
 ### Bagging 
+![1_JksRZ1E72Rsx2s8lQbNR1w](https://user-images.githubusercontent.com/128781536/236659007-ff186de5-669e-4462-8334-294c43675000.jpg)  
+
 Bagging (Bootstrap Aggregating) is a popular ensemble learning algorithm that involves training multiple models on different subsets of the training dataset using bootstrap sampling. The Bagging algorithm aims to reduce the variance of a single model and improve its accuracy by combining the predictions of multiple models.
 
 Here's an example of how the Bagging algorithm works:
@@ -38,7 +40,10 @@ For example, suppose you have trained 10 decision trees using the Bagging algori
 
 4)Evaluate the performance of the ensemble model: Once you have combined the predictions of the models, you can evaluate the performance of the ensemble model on a validation set or test set. You can use metrics such as accuracy, precision, recall, and F1-score to evaluate the performance of the model.  
 
-### Boosting
+### Boosting  
+
+![a9a5ff4e-b617-4afe-b27b-d96793defa87_6](https://user-images.githubusercontent.com/128781536/236659152-777a8194-6167-4993-a9e4-f178f6b6a53c.jpg)
+
 Boosting is another popular ensemble learning algorithm that involves training multiple models sequentially on different subsets of the training dataset. Unlike Bagging, Boosting focuses on reducing the bias of a single model and improving its accuracy by giving more weight to misclassified samples in each subsequent iteration.
 
 Here's an example of how the Boosting algorithm works:
