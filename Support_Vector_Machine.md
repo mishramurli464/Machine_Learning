@@ -96,4 +96,10 @@ The optimal solution for the primal problem can be obtained from the dual proble
 
 In general, functions that satisfy Mercer's condition can be kernel functions.
 
+Support Vector Machine (SVM) can potentially suffer from both **overfitting and underfitting**, depending on the complexity of the model and the amount of training data available.
+
+If the SVM is too complex and has too many features compared to the amount of training data available, it can potentially overfit the training data by fitting the noise instead of the underlying pattern. This can lead to poor performance on new, unseen data.
+
+
+
 
