@@ -30,3 +30,4 @@ between different clusters at different levels of granularity.
 
 Different definitions of the distance leads to different algorithms.
 
+Agglomerative hierarchical clustering **tends to fall in overfitting** if the clustering model is too complex and the algorithm is not properly regularized. This can happen if the number of clusters is too high or if the algorithm is allowed to keep splitting clusters until each point becomes its own cluster. In such cases, the algorithm may memorize the training data and produce clusters that do not generalize well to new data.
