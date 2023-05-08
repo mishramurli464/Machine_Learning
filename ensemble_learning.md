@@ -39,6 +39,7 @@ Suppose you have a dataset of 1000 records and you want to predict whether a cus
 For example, suppose you have trained 10 decision trees using the Bagging algorithm. Each decision tree has predicted whether a customer will buy a new product or not. You can then combine the predictions of the decision trees using majority voting. If 7 out of 10 decision trees predict "Yes", then you would predict that the customer is likely to buy a new product.
 
 4)Evaluate the performance of the ensemble model: Once you have combined the predictions of the models, you can evaluate the performance of the ensemble model on a validation set or test set. You can use metrics such as accuracy, precision, recall, and F1-score to evaluate the performance of the model.  
+This Algorithm might tend to fall in overfitting
 
 ### Boosting  
 
@@ -60,4 +61,5 @@ Suppose you have a dataset of 1000 records and you want to predict whether a cus
 
 For example, suppose you have trained 10 decision trees using the Boosting algorithm. Each decision tree has predicted whether a customer will buy a new product or not. You can then combine the predictions of the decision trees using weighted voting. The weight of each decision tree's prediction is determined by its accuracy and importance in the Boosting algorithm.
 
-5)Evaluate the performance of the ensemble model: Once you have combined the predictions of the models, you can evaluate the performance of the ensemble model on a validation set or test set. You can use metrics such as accuracy, precision, recall, and F1-score to evaluate the performance of the model.
+5)Evaluate the performance of the ensemble model: Once you have combined the predictions of the models, you can evaluate the performance of the ensemble model on a validation set or test set. You can use metrics such as accuracy, precision, recall, and F1-score to evaluate the performance of the model.  
+Boosting algorithms can potentially fall into overfitting
