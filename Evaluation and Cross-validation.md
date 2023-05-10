@@ -1,7 +1,7 @@
 # Evaluation and Cross-validation  
 Experimental evaluation of learning models is the process of testing and measuring the effectiveness and accuracy of different machine learning models on a specific 
 dataset. The main goal of experimental evaluation is to determine which model performs the best for a particular task or problem.
-Typical choices for performance evaluation:
+Typical choices for performance evaluation:  
 -->Error   
 -->Accuracy  
 -->precision/recall  
@@ -28,10 +28,10 @@ the model parameters accordingly.
 ![con_mat](https://i1.wp.com/dataaspirant.com/wp-content/uploads/2020/08/3_confusion_matrix.png?ssl=1)   
 Let's consider a binary classification problem where we are trying to predict whether an email is spam (positive class) or not spam (negative class). Here's an example confusion matrix:
                 
- |Spam (Positive)||Spam (Positive)| Not Spam (Negative)|
+ |Spam (Positive)|Spam (Positive)| Not Spam (Negative)|
  |-----------|-----------|-----------|
- |  **Actual Spam**    |   90      |       10  |
- |   **Actual Not Spam**     |   5       |     895   |
+ |  **Actual Spam**      |   90      |       10  |
+ |   **Actual Not Spam** |   5       |     895   |
 
 
 ## Sample error & True error  
