@@ -4,6 +4,8 @@ learning or lazy learning, where the algorithm simply stores all of the availabl
  
 ![knn](http://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1531424125/KNN_final1_ibdm8a.png)  
 
+from above figure we can see that the conclusion is made on the basis of 3 closely related neighbours 
+
 In k-NN, the "k" refers to the number of nearest neighbors to consider when making a prediction. Given a new data point, the algorithm finds the k data points in the 
 training set that are closest to it in terms of some distance metric (e.g., Euclidean distance or Manhattan distance). The algorithm then predicts the class or value 
 of the new data point based on the most common class or the average value of the k nearest neighbors.  
