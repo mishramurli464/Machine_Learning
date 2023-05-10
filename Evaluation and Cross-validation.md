@@ -2,9 +2,9 @@
 Experimental evaluation of learning models is the process of testing and measuring the effectiveness and accuracy of different machine learning models on a specific 
 dataset. The main goal of experimental evaluation is to determine which model performs the best for a particular task or problem.
 Typical choices for performance evaluation:
--->Error 
--->Accuracy
--->precision/recall
+-->Error   
+-->Accuracy  
+-->precision/recall  
 
 ## Explain confusion matrix for performance evaluation 
 A confusion matrix is a performance evaluation technique for machine learning models that provides a summary of the classification results. It is often used to evaluate the performance of classification models, where the goal is to predict the class label of each data point in a dataset.
@@ -25,13 +25,17 @@ F1 score: The harmonic mean of precision and recall, which is calculated as 2 * 
 The confusion matrix provides a useful way to visualize the performance of a classification model and identify areas where the model is making errors. By examining  
 the entries in the confusion matrix, it is possible to determine whether the model is overfitting or underfitting, and adjust  
 the model parameters accordingly.  
-![con_mat](https://i1.wp.com/dataaspirant.com/wp-content/uploads/2020/08/3_confusion_matrix.png?ssl=1)  
+![con_mat](https://i1.wp.com/dataaspirant.com/wp-content/uploads/2020/08/3_confusion_matrix.png?ssl=1)   
+Let's consider a binary classification problem where we are trying to predict whether an email is spam (positive class) or not spam (negative class). Here's an example confusion matrix:
+                
+                Spam (Positive)    Not Spam (Negative)
+Actual Spam         90                    10
+Actual Not Spam     5                     895
+
 
 ## Sample error & True error  
 
-Sample error refers to the error that occurs when a machine learning model is trained on a limited dataset, also known as the training set. This error is calculated  
-by comparing the performance of the model on the training set to its actual output. Sample error occurs when the model is overfitting to the training data and is not   
-able to generalize well to new, unseen data.  
+Sample error refers to the error that occurs when a machine learning model is trained on a limited dataset, also known as the training set. This error is calculated by comparing the performance of the model on the training set to its actual output. Sample error occurs when the model is overfitting to the training data and is not able to generalize well to new, unseen data.  
 
 True error, on the other hand, refers to the error that occurs when a machine learning model is tested on new, unseen data that was not used in the training phase.  
 This error is calculated by comparing the performance of the model on the testing set to its actual output. True error is a more accurate measure of the model's   
