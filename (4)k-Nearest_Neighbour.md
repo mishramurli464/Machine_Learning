@@ -65,3 +65,5 @@ Large values of k are more appropriate for datasets with large amounts of noise 
 **Anomaly detection:** k-NN can be used to detect anomalies in data, such as fraud detection or fault diagnosis in industrial systems. In such tasks, k-NN is used to identify data points that are significantly different from the rest of the data points.  
 
 **Recommender systems:** k-NN can be used in recommender systems to recommend products or services to users based on the similarity between their preferences and those of other users.  
+
+<--This Algorithm might tend to fall in overfitting-->
