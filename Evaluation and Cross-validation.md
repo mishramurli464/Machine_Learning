@@ -31,8 +31,27 @@ Let's consider a binary classification problem where we are trying to predict wh
  ||Spam (Positive)| Not Spam (Negative)|
  |-----------|-----------|-----------|
  |  **Actual Spam**      |   90      |       10  |
- |   **Actual Not Spam** |   5       |     895   |
+ |   **Actual Not Spam** |   5       |     895   |  
+ 
+ In this confusion matrix, we have four categories:
 
+True Positives (TP): The model correctly predicted 90 emails as spam.
+False Positives (FP): The model incorrectly predicted 10 emails as spam when they were not actually spam.
+False Negatives (FN): The model incorrectly predicted 5 emails as not spam when they were actually spam.
+True Negatives (TN): The model correctly predicted 895 emails as not spam.
+From this confusion matrix, we can calculate various evaluation metrics for our classification model:
+
+Accuracy: The overall accuracy of the model can be calculated as = 98.5 %
+Precision: The precision of the model, which measures the proportion of correctly predicted positive instances, can be calculated as=90%
+Recall (Sensitivity): The recall of the model, which measures the proportion of actual positive instances that are correctly predicted, can be calculated as=94.7%
+Specificity: The specificity of the model, which measures the proportion of actual negative instances that are correctly predicted, can be calculated as=98%
+F1 Score: The F1 score, which is the harmonic mean of precision and recall, can be calculated as 2 * (Precision * Recall) / (Precision + Recall).
+These metrics provide insights into the performance of the classification model and how well it is able to correctly predict the positive and negative instances.
+Accuracy: The overall accuracy of the model can be calculated as (TP + TN) / (TP + FP + FN + TN).
+Precision: The precision of the model, which measures the proportion of correctly predicted positive instances, can be calculated as TP / (TP + FP).
+Recall (Sensitivity): The recall of the model, which measures the proportion of actual positive instances that are correctly predicted, can be calculated as TP / (TP + FN).
+Specificity: The specificity of the model, which measures the proportion of actual negative instances that are correctly predicted, can be calculated as TN / (TN + FP).
+F1 Score: The F1 score, which is the harmonic mean of precision and recall, can be calculated as 2 * (Precision * Recall) / (Precision + Recall).
 
 ## Sample error & True error  
 
