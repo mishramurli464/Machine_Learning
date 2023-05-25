@@ -23,7 +23,8 @@ In inductive learning, the representation of functions refers to how the machine
 The function representation can be thought of as a hypothesis about the underlying relationship between the input and output variables. The goal of the machine learning algorithm is to find the best hypothesis or function that fits the training data while also generalizing well to new, unseen data.
 
 a)Linear functions: Linear functions are commonly used to represent the relationship between continuous input features and a continuous output variable. A linear function takes the form y = w1x1 + w2x2 + ... + wn xn + b, where w1, w2, ..., wn are the weights associated with each input feature, and b is a bias term.  
-![lin_func](https://miro.medium.com/max/970/1*PxrWV2vIZulpE6ID9JPzrQ.png)  
+![known input from training sets](https://github.com/mishramurli464/Machine_Learning/assets/128781536/2acec2bf-e000-4bdb-9f4c-4f1551dae92e)
+
 
 b)Decision trees: Decision trees are a type of function representation that can be used to model both continuous and categorical input features. A decision tree consists of a tree-like structure where each node represents a decision based on one or more input features, and the branches represent the possible outcomes of that decision. The leaves of the tree represent the final output values.  
 ![dec_tree](https://assignmentpoint.com/wp-content/uploads/2016/05/Decision-Tree-Learning.jpg)   
