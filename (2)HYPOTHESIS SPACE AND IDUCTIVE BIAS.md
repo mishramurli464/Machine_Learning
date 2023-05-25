@@ -27,7 +27,7 @@ a)Linear functions: Linear functions are commonly used to represent the relation
 
 
 b)Decision trees: Decision trees are a type of function representation that can be used to model both continuous and categorical input features. A decision tree consists of a tree-like structure where each node represents a decision based on one or more input features, and the branches represent the possible outcomes of that decision. The leaves of the tree represent the final output values.  
-![dec_tree](https://assignmentpoint.com/wp-content/uploads/2016/05/Decision-Tree-Learning.jpg)   
+![dec_tree](https://user-images.githubusercontent.com/107355282/234040111-e70d5e19-3cc4-4216-9431-5e54834daac3.png)   
 
 c)Neural networks: Neural networks are a type of function representation that are used for a wide range of machine learning tasks. A neural network consists of layers of interconnected nodes or neurons, where each neuron applies a non-linear transformation to its input and passes the result to the next layer. The output of the final layer represents the predicted output value.  
 ![neu_net](https://mlatcl.github.io/deepnn/slides/diagrams/convnets/fc_s.png)
