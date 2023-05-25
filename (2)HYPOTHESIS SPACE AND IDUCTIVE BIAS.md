@@ -16,7 +16,8 @@ Concept c: Subset of objects from X (c is unknown).
 Target Function f: Maps each instance x EX to target label y EY  
 Example (x,y): Instance x with label y=f(x).  
 Training Data S: Collection of examples observed by learning algorithm.  
-![termilogy](https://ds055uzetaobb.cloudfront.net/image_optimizer/6aaeb27b0fd954d9232de5a9142eb1dc658ea8a1.jpg)
+![class 1 (1)](https://github.com/mishramurli464/Machine_Learning/assets/128781536/f683ff71-35c5-4774-8551-a6e5f0e34f51)
+
 
 ## Representation
 In inductive learning, the representation of functions refers to how the machine learning algorithm represents the mapping between input features and output variables. The choice of function representation can have a significant impact on the performance of the algorithm and its ability to generalize to new, unseen data.  
