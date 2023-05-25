@@ -30,7 +30,7 @@ b)Decision trees: Decision trees are a type of function representation that can 
 ![dec_tree](https://user-images.githubusercontent.com/107355282/234040111-e70d5e19-3cc4-4216-9431-5e54834daac3.png)   
 
 c)Neural networks: Neural networks are a type of function representation that are used for a wide range of machine learning tasks. A neural network consists of layers of interconnected nodes or neurons, where each neuron applies a non-linear transformation to its input and passes the result to the next layer. The output of the final layer represents the predicted output value.  
-![neu_net](https://mlatcl.github.io/deepnn/slides/diagrams/convnets/fc_s.png)
+
 ## Hypothesis space  
 Hypothesis space is a key concept in inductive learning, which refers to the set of all possible hypotheses or models that can be used to explain a given dataset.  
 In other words, the hypothesis space defines the range of functions or relationships that can be learned by a machine learning algorithm.   
