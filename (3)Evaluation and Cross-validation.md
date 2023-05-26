@@ -63,5 +63,6 @@ In performance evaluation, a **training set** is a subset of data used to train 
 
 Once the model has been trained on the training set, it is evaluated on a testing set, which is another subset of data that the model has not seen before. The **testing set** is used to assess the model's performance and to estimate how well it will generalize to new data. The testing set should be representative of the data that the model is likely to encounter in the real world.  
 
-![Training_&_Testing_Set](https://algotrading101.com/learn/wp-content/uploads/2020/06/training-validation-test-data-set.png)
+![TESTING](https://github.com/mishramurli464/Machine_Learning/assets/128781536/088fa2f8-5d86-42ab-a9af-a74f0339b086)
+
 
