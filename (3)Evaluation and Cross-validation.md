@@ -25,7 +25,8 @@ F1 score: The harmonic mean of precision and recall, which is calculated as 2 * 
 The confusion matrix provides a useful way to visualize the performance of a classification model and identify areas where the model is making errors. By examining  
 the entries in the confusion matrix, it is possible to determine whether the model is overfitting or underfitting, and adjust  
 the model parameters accordingly.  
-![con_mat](https://i1.wp.com/dataaspirant.com/wp-content/uploads/2020/08/3_confusion_matrix.png?ssl=1)   
+ ![TRUE POSITIVE](https://github.com/mishramurli464/Machine_Learning/assets/128781536/b9f09ca7-6baa-4a90-84f3-91c138089ad2)
+
 Let's consider a binary classification problem where we are trying to predict whether an email is spam (positive class) or not spam (negative class). Here's an example confusion matrix:
                 
  ||Spam (Positive)| Not Spam (Negative)|
