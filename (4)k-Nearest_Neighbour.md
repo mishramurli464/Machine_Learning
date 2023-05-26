@@ -1,8 +1,8 @@
 # K-NEAREST NEIGHBOUR  
 The k-Nearest Neighbor (k-NN) algorithm is a popular machine learning algorithm used for both classification and regression tasks. It is a type of instance-based 
 learning or lazy learning, where the algorithm simply stores all of the available training data and makes predictions based on the similarity between new input data and the training data.
- 
-![knn](http://res.cloudinary.com/dyd911kmh/image/upload/f_auto,q_auto:best/v1531424125/KNN_final1_ibdm8a.png)  
+  
+![TESTING](https://github.com/mishramurli464/Machine_Learning/assets/128781536/f9b6a188-beff-4110-8d2e-231c2b97d090)  
 
 from above figure we can see that the conclusion is made on the basis of 3 closely related neighbours 
 
