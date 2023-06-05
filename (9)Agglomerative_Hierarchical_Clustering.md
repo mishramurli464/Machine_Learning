@@ -17,7 +17,8 @@ until all data points belong to the same cluster.
 
 One of the advantages of agglomerative hierarchical clustering is that it can produce a hierarchy of clusters, which can be useful for understanding the relationships 
 between different clusters at different levels of granularity. 
-![16-Hierarchical-Clustering-Dendrogram](https://user-images.githubusercontent.com/128781536/236629241-8b9f0b18-94b5-4d42-9643-f479e8f00692.png)
+
+![Dendrogram](https://github.com/mishramurli464/Machine_Learning/assets/128781536/c0a29523-3237-45c3-8b11-c3b5b66d84c0)
 
 ## 4 step algorithim for Hierrarchical Agglomerative clustering
 
