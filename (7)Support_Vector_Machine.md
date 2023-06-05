@@ -85,8 +85,9 @@ The optimal solution for the primal problem can be obtained from the dual proble
 
 ##   NON-Linear SVM and Kernel Function  
  Non-linear SVM uses a **kernel function** to transform the data into a higher-dimensional space where a linear decision boundary can be found. The kernel function maps the data points into the new feature space without actually computing their coordinates. The most commonly used kernel functions are polynomial kernel, RBF kernel, and sigmoid kernel. The optimization problem for non-linear SVM is the same as that of linear SVM, but with the kernel function replacing the dot product in the decision function.
- ![m](https://user-images.githubusercontent.com/128781536/236613985-364b79f7-4632-4b3e-8992-3c4aef269cfc.JPG)   
  
+ ![Your paragraph text (6)](https://github.com/mishramurli464/Machine_Learning/assets/128781536/56187d5b-88ae-424e-99f2-6540dd37ecf7)
+
  **Commonly-used kernel functions**  
  **Linear kernel:** K(xi, xj) = Xi.Xj
 
