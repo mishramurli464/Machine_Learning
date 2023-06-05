@@ -22,7 +22,8 @@ Ensemble learning can help improve the accuracy and robustness of predictive mod
 
 ## There are two main types of ensemble learning: bagging and boosting.  
 ### Bagging 
-![1_JksRZ1E72Rsx2s8lQbNR1w](https://user-images.githubusercontent.com/128781536/236659007-ff186de5-669e-4462-8334-294c43675000.jpg)  
+
+![TRAINING DATASET (1)](https://github.com/mishramurli464/Machine_Learning/assets/128781536/b5b85bfa-6320-438b-990c-7e3df9963949)
 
 Bagging (Bootstrap Aggregating) is a popular ensemble learning algorithm that involves training multiple models on different subsets of the training dataset using bootstrap sampling. The Bagging algorithm aims to reduce the variance of a single model and improve its accuracy by combining the predictions of multiple models.
 
