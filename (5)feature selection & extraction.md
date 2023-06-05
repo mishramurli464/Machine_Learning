@@ -56,7 +56,9 @@ Example: In a dataset of student grades, we may use Pearson correlation coeffici
 
 ## FEATURE EXTRACTION
 In machine learning, feature extraction is the process of selecting and transforming raw input data into a set of features that can be used as input for learning algorithms. Feature extraction is a crucial step in machine learning because it can greatly impact the performance and accuracy of the resulting model.  
-![X1 X2 X3     Xn (1)](https://github.com/mishramurli464/Machine_Learning/assets/128781536/9659c653-e044-4090-89b3-84ee5485d24a)
+
+![X1 X2 X3     Xn (1)](https://github.com/mishramurli464/Machine_Learning/assets/128781536/6ea58b6d-e2d4-47dc-ab9a-a060fbe3f8d7)
+
 **Principal Component Analysis (PCA)**  
 Principal Component Analysis (PCA) is a widely used technique in machine learning for feature extraction. It is a statistical technique that is used to reduce the dimensionality of a dataset while retaining most of the information present in the original data. PCA works by finding a set of new variables, called principal components, that are linear combinations of the original features.
 
