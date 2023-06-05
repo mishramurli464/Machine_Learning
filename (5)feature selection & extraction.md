@@ -65,8 +65,8 @@ Principal Component Analysis (PCA) is a widely used technique in machine learnin
 The first principal component is the linear combination of the original features that accounts for the most variance in the data. The second principal component is the linear combination of the original features that accounts for the most variance after accounting for the first principal component, and so on.
 
 PCA is a mathematical technique for feature extraction that finds a set of linearly uncorrelated and orthogonal principal components that account for most of the variance in the data. PCA can be used to reduce the dimensionality of a dataset and improve the performance of learning algorithms.  
+![Your paragraph text (5)](https://github.com/mishramurli464/Machine_Learning/assets/128781536/a995ccad-295f-4739-b1e4-7260a2c0e695)
 
-![pca](https://vitalflux.com/wp-content/uploads/2020/08/Screenshot-2020-08-08-at-7.07.26-PM-768x255.png)  
 The above fig shows. that the first pc is chosen based on the largest variance and the second pc if it is uncorrelated with the first feature  so its orthigonal to the first   
 
 PCA can also be used for image reduction, which is a common application of dimensionality reduction in image processing. In this context, the goal is to reduce the dimensionality of an image while preserving its essential features.
